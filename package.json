@@ -1,0 +1,23 @@
+{
+  "name": "envcli",
+  "version": "1.0.0",
+  "description": "Loads env files into shell environment variables",
+  "main": "envcli.sh",
+  "bin": {
+    "envcli": "envcli.sh"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com/ajhenry/envcli.git"
+  },
+  "keywords": [
+    "env",
+    "local",
+    "environment",
+    "cli"
+  ],
+  "author": "Andrew Henry <andrew.henry@pitt.edu>",
+  "license": "MIT",
+  "dependencies": {}
+}
