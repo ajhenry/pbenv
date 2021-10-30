@@ -1,21 +1,25 @@
-# envcli
+# pbenv
 
-Loads env files into shell environment variables quick
+Loads env files into export statements and adds them to your clipboard
 
 ## Quickstart
 
 Go into a directory that you want to load env files from
 
-```
-npx envcli
+```sh
+npx pbenv
 ```
 
 This will load `.env` by default.
 
+From there you can paste the contents and hit enter
+
+### Load a different env file
+
 To load another file put a path to that file as an argument
 
-```
-npx envcli .env.local
+```sh
+npx pbenv -f .env.local
 ```
 
 This will load the `.env.local` configuration into your shell
@@ -23,8 +27,12 @@ This will load the `.env.local` configuration into your shell
 ## Usage
 
 ```
-envcli [-h] <env file>
+envcli -h
+Loads env files into export statements and adds them to your clipboard
+
+envcli [-h] [-v] [-f filename]
 options:
-h           Print this Help.
-env file    Path of an env file to load
+h     Print this help
+v     Enable verbose mode
+f     Path of an env file to load
 ```

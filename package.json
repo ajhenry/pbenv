@@ -1,15 +1,15 @@
 {
-  "name": "envcli",
+  "name": "pbenv",
   "version": "1.0.0",
-  "description": "Loads env files into shell environment variables",
-  "main": "envcli.sh",
+  "description": "Loads env files into export statements and adds them to your clipboard",
+  "main": "pbenv.sh",
   "bin": {
-    "envcli": "envcli.sh"
+    "pbenv": "pbenv.sh"
   },
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "github.com/ajhenry/envcli.git"
+    "url": "github.com/ajhenry/pbenv.git"
   },
   "keywords": [
     "env",
