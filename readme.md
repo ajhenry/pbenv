@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" src="/resources/header.svg">
+  <img width="600" src="https://raw.githubusercontent.com/ajhenry/pbenv/ce818d433f4948d8037bcd78268bb188f4bcf386/resources/header.svg">
 </p>
 
 # pbenv
