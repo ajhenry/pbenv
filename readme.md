@@ -6,6 +6,8 @@
 
 Loads env files into export statements and adds them to your clipboard
 
+[NPM](https://www.npmjs.com/package/pbenv)
+
 ## Quickstart
 
 Go into a directory that you want to load env files from
